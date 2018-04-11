@@ -1,0 +1,2 @@
+const mongoose = require('mongoose'); //importação do mongoose. É responsável pela conexão e mapeamento dos objetos com o MongoDB
+module.exports = mongoose.connect('mongodb://localhost/db_carstore'); //utilizo o mongoose para realizar a conexão com o mongoDB
